@@ -9,33 +9,31 @@ const songs = require("./data/songs.json");
 const popularSongs = require("./data/popular_songs.json");
 const artists = require("./data/artists.json");
 
-(async () => {
-  try {
-    console.log("Connecting to database ...");
-    mongoose.connect(DATABASE_URL);
+try {
+  console.log("Connecting to database ...");
+  mongoose.connect(DATABASE_URL);
 
-    const database = mongoose.connection;
+  const database = mongoose.connection;
 
-    database.on("connected", () => {
-      console.log("Database connected.");
-    });
+  database.on("connected", () => {
+    console.log("Database connected.");
+  });
 
-    const seed = async () => {
-      try {
-        await Artist.insertMany(artists);
-        await PopularSong.insertMany(popularSongs);
-        await Song.insertMany(songs);
-        
-        console.log("Database has been successfully created");
-      } catch (error) {
-        console.log("Error during operation:", error.message);
-      }
-    };
+  const seed = async () => {
+    try {
+      await Artist.insertMany(artists);
+      await PopularSong.insertMany(popularSongs);
+      await Song.insertMany(songs);
 
-    seed().then(() => {
-      database.close();
-    });
-  } catch (error) {
-    console.log(error);
-  }
-})();
+      console.log("Database has been successfully created");
+    } catch (error) {
+      console.log("Error during operation:", error.message);
+    }
+  };
+
+  seed().then(() => {
+    database.close();
+  });
+} catch (error) {
+  console.log(error);
+}
