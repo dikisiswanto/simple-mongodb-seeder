@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Shape of You",
+    "artists": ["Ed Sheeran"],
+    "album": "÷ (Deluxe)"
+  },
+  {
+    "title": "Don't Stop Believin'",
+    "artists": ["Journey"],
+    "album": "Escape"
+  },
+  {
+    "title": "Uptown Funk",
+    "artists": ["Mark Ronson", "Bruno Mars"],
+    "album": "Uptown Special"
+  },
+  {
+    "title": "Bohemian Rhapsody",
+    "artists": ["Queen"],
+    "album": "A Night at the Opera"
+  },
+  {
+    "title": "Billie Jean",
+    "artists": ["Michael Jackson"],
+    "album": "Thriller"
+  },
+  {
+    "title": "Hey Jude",
+    "artists": ["The Beatles"],
+    "album": "The Beatles (White Album)"
+  },
+  {
+    "title": "Hotel California",
+    "artists": ["Eagles"],
+    "album": "Hotel California"
+  },
+  {
+    "title": "Rolling in the Deep",
+    "artists": ["Adele"],
+    "album": "21"
+  },
+  {
+    "title": "Imagine",
+    "artists": ["John Lennon"],
+    "album": "Imagine"
+  },
+  {
+    "title": "Smells Like Teen Spirit",
+    "artists": ["Nirvana"],
+    "album": "Nevermind"
+  }
+]

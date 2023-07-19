@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Ed Sheeran",
+    "dateOfBirth": "1991-02-17",
+    "genres": ["Pop", "Folk", "R&B"]
+  },
+  {
+    "name": "Journey",
+    "dateOfBirth": "1973-01-01",
+    "genres": ["Rock"]
+  },
+  {
+    "name": "Mark Ronson",
+    "dateOfBirth": "1975-09-04",
+    "genres": ["Pop", "Funk", "R&B"]
+  },
+  {
+    "name": "Bruno Mars",
+    "dateOfBirth": "1985-10-08",
+    "genres": ["Pop", "R&B", "Funk"]
+  },
+  {
+    "name": "Queen",
+    "dateOfBirth": "1970-06-27",
+    "genres": ["Rock"]
+  },
+  {
+    "name": "Michael Jackson",
+    "dateOfBirth": "1958-08-29",
+    "genres": ["Pop", "R&B", "Rock"]
+  },
+  {
+    "name": "The Beatles",
+    "dateOfBirth": "1960-01-01",
+    "genres": ["Rock", "Pop"]
+  },
+  {
+    "name": "Eagles",
+    "dateOfBirth": "1971-02-17",
+    "genres": ["Rock", "Country", "Folk"]
+  },
+  {
+    "name": "Adele",
+    "dateOfBirth": "1988-05-05",
+    "genres": ["Pop", "Soul"]
+  },
+  {
+    "name": "John Lennon",
+    "dateOfBirth": "1940-10-09",
+    "genres": ["Rock", "Pop"]
+  }
+]

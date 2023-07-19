@@ -1,0 +1,9 @@
+{
+  "name": "simple-mongodb-seeder",
+  "version": "1.0.0",
+  "main": "seeder.js",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^7.4.0"
+  }
+}
